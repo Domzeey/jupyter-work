@@ -1,0 +1,74 @@
+oop(object oriented programming)
+=================================
+class
+object- for object to happen in programming there must be a template(class), object dont exist with out a class
+methods(intance/class)
+properties(instance/class)
+
+
+
+oop features
+=============
+encapsulation
+abstraction
+inheritance
+polymorphism
+         overriding
+         overloading
+
+
+interface : all methods are abstract
+abctract class : both concrete methods and abstract methodss
+concrete class : all methods are implemented. you can create object
+
+
+
+
+
+
+Animal (heads, eyes, legs)
+	abstract move()
+	communicate()
+	eat()
+   population
+   census()
+
+Human inherit from Animal (color)
+	must override move()
+	overloads communicate()
+
+IBird:
+    abstract fly()
+
+Bird inherit from Animal
+	must override move()
+	fly()
+	communicate()
+
+Wizard inherit from Human but implements IBird:
+	must override fly()
+	
+
+
+
+
+
+from tkinter import *
+
+class Application(Frame):
+    def_init_(self, master):
+        super(Application, self)._init_(master)
+        sef.grid()
+        self.b1 label(text='hello workd...' font='Arial 24 bold')
+        seil.1b1.grid(row=0, colume=0)
+
+    
+    
+window = TK()
+window.title("Frame Title")
+window.geometry('300x400')
+app = Application(window)
+app.mainloop()
+
+
+
